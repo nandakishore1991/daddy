@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: po4
+  labels:
+    run: po4  
+spec:
+  containers:
+    - name: kish4
+      image: httpd  
