@@ -8,3 +8,5 @@ spec:
   containers:
     - name: kish4
       image: 123459691/testing:v10
+      ports:
+        - containerPort:8099
